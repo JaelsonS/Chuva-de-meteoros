@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuva de Meteoros</title>
+    <!-- Incluindo o arquivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Menu -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <section>
+            <h1>Previsão de Chuvas de Meteoros</h1>
+            <p>Digite o mês atual para saber as chuvas de meteoros previstas para o trimestre.</p>
+
+            <!-- Campo de entrada para o usuário digitar o mês -->
+            <input type="number" id="mes" placeholder="Informe o mês atual" min="1" max="12">
+            <button onclick="mostrarMeteoros()">Ver Meteoros</button>
+
+            <div id="resultado"></div> <!-- Aqui será exibido o resultado -->
+
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 - Todos os direitos reservados</p>
+    </footer>
+
+    <!--arquivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
